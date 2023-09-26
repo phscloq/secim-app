@@ -93,7 +93,7 @@ export default function VoteCount(){
       <View style={styles.candidatesContainer}>
         <CandidateSection
         style={[styles.recep, styles.candidateSection]}
-          candidateName="Tayyip"
+          candidateName="Candidate1"
           candidateCount={candidate1Count}
           handleIncrement={()=>handleIncrement(candidate1Count, setCandidate1Count)}
           handleDecrease={()=>handleDecrease(candidate1Count, setCandidate1Count)}
@@ -101,7 +101,7 @@ export default function VoteCount(){
               <View style={styles.divider} />
         <CandidateSection
           style={[styles.kemal, styles.candidateSection]}
-          candidateName="Kılıçdaroğlu"
+          candidateName="Candidate2"
           candidateCount={candidate2Count}
           handleIncrement={()=>handleIncrement(candidate2Count, setCandidate2Count)}
           handleDecrease={()=>handleDecrease(candidate2Count, setCandidate2Count)}
